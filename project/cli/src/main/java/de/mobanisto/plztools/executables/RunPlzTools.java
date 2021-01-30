@@ -42,6 +42,9 @@ public class RunPlzTools
 
 			options.addCommand("list-plz", RunListPlz.OPTIONS_FACTORY,
 					RunListPlz.class);
+			options.addCommand("list-plz-with-distance",
+					RunListPlzWithDistance.OPTIONS_FACTORY,
+					RunListPlzWithDistance.class);
 
 			return options;
 		}
