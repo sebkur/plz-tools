@@ -31,3 +31,12 @@ Listing all PLZ with a certain prefix and their distance a specified PLZ:
     > 40225: 51.197, 6.794 0.00km
     > 40227: 51.213, 6.804 1.90km
     > 40229: 51.197, 6.844 3.50km
+
+## Hacking
+
+To work on the project in Eclipse, create the Eclipse project files using
+Gradle:
+
+    ./gradlew cleanEclipse eclipse
+
+IntelliJ should also be able to open the project without further configuration.
