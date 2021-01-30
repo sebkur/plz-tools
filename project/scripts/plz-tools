@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DIR=$(dirname $0)
+CMD="$DIR/plz-tools.sh"
+CLASS="de.mobanisto.plztools.executables.RunPlzTools"
+
+exec "$CMD" "$CLASS" "$@"
