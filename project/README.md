@@ -39,4 +39,9 @@ Gradle:
 
     ./gradlew cleanEclipse eclipse
 
+Afterwards add the containing Git repository to Eclipse, and import the
+contained projects. To do so open the `Git Repositories` view (`Window` → `Show
+View` → `Other...` → `Git` → `Git Repositories`). There you can add the local
+git repository and right click → `Import Projects...`.
+
 IntelliJ should also be able to open the project without further configuration.
